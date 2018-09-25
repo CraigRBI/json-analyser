@@ -1,9 +1,9 @@
 # json-analyser
 Instructions
 
-1) Set up sql server database using schema provided in json-analyser/resources/orders-schema.sql
+1) Set up a sql server database using the schema provided in json-analyser/resources/orders-schema.sql
 
-2) Update database connection string in json-analyser/JsonAnalyser/app.config
+2) Update the database connection string in json-analyser/JsonAnalyser/app.config
 
 3) After building the solution, a directory will need to be created in the location of the .exe called 'import'; this will contain a .json file with the order data
 
