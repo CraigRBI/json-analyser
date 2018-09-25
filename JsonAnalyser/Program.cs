@@ -15,8 +15,6 @@ namespace JsonAnalyser
         private static string _function;
         private static string _functionArg;
 
-
-
         public static void Main(string[] args)
         {
             try 
@@ -105,10 +103,12 @@ namespace JsonAnalyser
                         {
                             Console.WriteLine("No analysis argument supplied.");
                         }
+
                         break;
 
                     default:
                         Console.WriteLine("Command not recognised.");
+
                         break;
                 }
             }
