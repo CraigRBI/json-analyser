@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 
-namespace JsonAnalyser
+namespace JsonAnalyser.DataEngine
 {
     public class DataVisualiser
     {
